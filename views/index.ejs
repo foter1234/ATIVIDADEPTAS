@@ -11,21 +11,26 @@
 
 <% pessoas.forEach((pessoa) => { %>
     
-        <form >
-    <p>
+        <form class="mt-6">
+            <div class="w-full p-6 m-auto bg-purple-200 rounded-md shadow-md lg:max-w-xl">
+    <p class="block text-sm font-semibold text-gray-800">
         <%= pessoa.id %> 
         <%= pessoa.nome %> 
         <%= pessoa.sobrenome %>
         <%= pessoa.idade %>   
         <%= pessoa.altura %>
         <div class="mt-2">
-        <button  type="submit"   ><a class="w-full px-2 py-2 tracking-wide text-white transition-colors duration-200 transform bg-purple-700 rounded-md hover:bg-purple-600 focus:outline-none focus:bg-purple-600" href="/pessoas/delete?id=<%= pessoa.id %>">Deletar</a></button>
+        <button  type="submit"><a class="w-full px-2 py-2 tracking-wide text-white transition-colors duration-200 transform bg-red-700 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600" href="/pessoas/delete?id=<%= pessoa.id %>">Deletar</a></button>
    </div>
     </p>
+</div>
+           
+    
     </form>
 
     <br/>
-<% }) %><br/>
+<% }) %>
+<button  type="submit"><a class="w-full px-2 py-2 tracking-wide text-white transition-colors duration-200 transform bg-blue-700 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600" href="/pessoas/criar">Voltar</a></button>
 </div>
 </body>
 </html>
