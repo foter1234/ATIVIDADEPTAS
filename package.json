@@ -19,5 +19,13 @@
     "nodemon": "^2.0.21",
     "sequelize-cli": "^6.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foter1234/ATIVIDADEPTAS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foter1234/ATIVIDADEPTAS/issues"
+  },
+  "homepage": "https://github.com/foter1234/ATIVIDADEPTAS#readme",
   "description": ""
 }
