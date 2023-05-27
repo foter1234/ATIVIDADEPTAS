@@ -59,7 +59,8 @@ module.exports = {
       nome: 'John Doe',
       sobrenome:"Dir",
       idade:18,
-      altura:180},
+      altura:180
+    },
 
     ], {});
   },
